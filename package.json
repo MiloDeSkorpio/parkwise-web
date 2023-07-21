@@ -13,9 +13,6 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^5.2.1",
-    "react-slick": "^0.29.0",
-    "react-slick-carousel": "^0.14.9",
-    "slick-carousel": "^1.8.1",
     "swiper": "^10.0.4"
   },
   "devDependencies": {
