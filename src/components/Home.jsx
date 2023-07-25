@@ -17,7 +17,7 @@ const Home = () => {
 
   return (
     <>
-      <div className='section flex flex-col items-center w-full min-h-[900px] bg-gray-200 p-5'>
+      <div className='section flex flex-col items-center w-full min-h-[900px] bg-gray-300 p-5'>
         <Swiper {...sliderSettings}>
           {images.map((image, imageIndex) => {
             const { ruta } = image;
@@ -30,8 +30,10 @@ const Home = () => {
             );
           })}
         </Swiper>
-        <h1 className='text-black font-extrabold text-2xl'>{title}</h1>
-        <p>{text}</p>
+        <div className='bg-gray-700 rounded-md p-2 text-white shadow-lg'>
+          <h1 className='font-extrabold text-2xl'>{title}</h1>
+          <p className=''>{text}</p>
+        </div>
       </div>
     </>
   );
