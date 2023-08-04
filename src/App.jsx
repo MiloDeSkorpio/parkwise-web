@@ -10,14 +10,16 @@ import Nav from './components/templates/Nav.jsx';
 const App = () => {
   
   return (
-    <Router>
-      <Nav />
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/about" component={About} />
-        <Route path="/contact" component={Contact} />
-      </Switch>
-    </Router>
+    <div className=''>
+      <Router>
+        <Nav />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/contact" component={Contact} />
+        </Switch>
+      </Router>
+    </div>
   );
 };
 
