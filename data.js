@@ -8,6 +8,7 @@ export const nav  = [
   {name: 'Home', href:'/'},
   {name: 'Acerca de', href:'/about'},
   {name: 'Contacto', href:'/contact'},
+  {name: 'Servicios', href:'/services'},
 ]
 
 // exports infoComponents
@@ -49,6 +50,21 @@ export const about = {
     {
       subTitle: 'Únete a ParkWise hoy',
       text: 'Estamos emocionados de tener la oportunidad de transformar la forma en que te estacionas. Únete a ParkWise hoy y experimenta un enfoque más inteligente, conveniente y sostenible para el estacionamiento.'
+    }
+  ]
+}
+
+export const services = {
+  service: [
+    {
+    title: 'ANPR/LPR System',
+    svg: ''
+    }
+  ],
+  sections: [
+    {
+      title: "",
+      img: '',
     }
   ]
 }

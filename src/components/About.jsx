@@ -4,7 +4,7 @@ import { about } from '../../data'; // Importa tu data de 'about'
 
 const About = () => {
   return (
-    <div className='pt-20 h-screen items-center max-w-7xl  bg-gray-300 p-5'>
+    <div className='pt-20 flex  h-full w-full items-center bg-white p-5'>
       {/* ... Otros contenidos */}
       <AboutSwiper about={about} />
       {/* ... Otros contenidos */}

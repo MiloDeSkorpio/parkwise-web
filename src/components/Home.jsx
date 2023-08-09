@@ -17,22 +17,22 @@ const Home = () => {
 
   return (
     <>
-      <div className=' pt-20 flex flex-col items-center max-w-7xl min-h-[900px] bg-gray-300 p-5'>
-        <div className='container'>
+      <div className='pt-20 flex  h-full w-full items-center bg-white p-5'>
+        <div className='h-44 w-full overflow-hidden py-3'>
           <Swiper {...sliderSettings}>
             {images.map((image, imageIndex) => {
               const { ruta } = image;
               return (
                 <SwiperSlide key={imageIndex}>
-                  <div className='max-h-[350px] max-w-sm'>
-                    <img src={ruta} alt="ImagenSlider" />
+                  <div className='h-full max-w-sm object-cover'>
+                    <img src={ruta} alt="ImagenSlider" className='h-full w-full object-cover'/>
                   </div>
                 </SwiperSlide>
               );
             })}
           </Swiper>
         </div>
-        <div className='bg-gray-700 rounded-md p-2 text-white shadow-lg'>
+        <div className='bg-gray-700 rounded-md p-2 mt-20 text-white shadow-lg'>
           <h1 className='font-extrabold text-2xl'>{title}</h1>
           <p className=''>{text}</p>
         </div>

@@ -27,10 +27,10 @@ const Contact = () => {
 
   return (
     <>
-      <div className='section flex flex-col justify-center items-center w-screen min-h-[900px] bg-gray-200 p-5'>
-        <div className="p-2">
+      <div className='container flex flex-col justify-center items-center w-screen min-h-[900px] bg-gray-200 p-5'>
+        <div className="p-2 w-80">
           <h1 className="text-3xl font-bold mb-4">Contacto</h1>
-          <form onSubmit={handleSubmit} className="bg-blue-950 p-3 w-[450px] rounded-md">
+          <form onSubmit={handleSubmit} className="bg-blue-950 p-3 min-w-full rounded-md">
           <div className="mb-4">
             <label htmlFor="name" className="block text-white font-medium mb-2">
               Nombre

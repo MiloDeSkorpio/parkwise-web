@@ -16,7 +16,7 @@ const About = () => {
   };
 
   return (
-    <div className='flex flex-col items-center max-w-7xl min-h-[900px] bg-gray-300 p-5'>
+    <div className='flex flex-col items-center p-5'>
       <div className="container">
 
         <Swiper {...sliderSettings}>
