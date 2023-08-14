@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { about } from '../../../data';
 
 const About = () => {
-  const { title, section } = about;
+  const { title, slider } = about;
 
   // Configuración del slider
   const sliderSettings = {
@@ -18,21 +18,17 @@ const About = () => {
   return (
     <div className='flex flex-col items-center p-5'>
       <div className="container">
-
         <Swiper {...sliderSettings}>
-          {section.map((section, sectionIndex) => (
-
-              <SwiperSlide key={sectionIndex}>
+          {slider.map((slider, sliderIndex) => (
+              <SwiperSlide key={sliderIndex}>
                 <div className="p-4 border-orange-500 bg-blue-950 rounded text-white shadow-md">
-                  <h2 className="text-xl font-semibold mb-2">{section.subTitle}</h2>
-                  <p className="text-sm">{section.text}</p>
+                  <h2 className="text-xl font-semibold mb-2">{slider.subTitle}</h2>
+                  <p className="text-sm">{slider.text}</p>
                 </div>
               </SwiperSlide>
-
           ))}
         </Swiper>
       </div>
-      <h1 className="text-3xl font-bold text-center mb-6">{title}</h1>
     </div>
   );
 };

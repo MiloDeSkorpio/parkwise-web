@@ -71,7 +71,12 @@ export const home = {
 
 export const about = {
   title: 'Acerca de ParkWise',
-  section: [
+  intro:  
+  {
+    subTitle: 'Nuestro Compromiso con el Medio Ambiente',
+    text: 'En ParkWise, también nos preocupamos por el medio ambiente. Creemos que una gestión más eficiente del estacionamiento puede reducir la congestión del tráfico y las emisiones de gases de efecto invernadero. Al ayudarte a encontrar estacionamiento rápidamente, contribuimos a crear una ciudad más sostenible y amigable con el medio ambiente.'
+  },
+  slider: [
     {
       subTitle: 'Más sobre Nosotros',
       text: 'En ParkWise, estamos comprometidos con mejorar tu experiencia diaria de estacionamiento. Nuestro sistema de estacionamiento inteligente utiliza tecnología de vanguardia, incluyendo sensores de largo alcance y lectores de placa, para ofrecerte una solución innovadora y eficiente.' 
@@ -81,18 +86,21 @@ export const about = {
       text: 'Nuestra misión en ParkWise es facilitar y optimizar el proceso de estacionamiento para conductores y empresas por igual. Queremos eliminar la incertidumbre y el estrés asociados con la búsqueda de estacionamiento, proporcionándote información en tiempo real sobre disponibilidad de espacios y ayudándote a encontrar la mejor opción para tus necesidades.'
     },
     {
-      subTitle: 'Cómo Funciona',
-      text: 'Nuestro sistema de estacionamiento inteligente utiliza sensores avanzados para detectar la disponibilidad de espacios en tiempo real. Con esta información, podemos ofrecerte una vista en tiempo real de los lugares de estacionamiento disponibles en tu ubicación, lo que te permite tomar decisiones informadas y encontrar rápidamente el espacio perfecto para aparcar tu vehículo.'
-    },
-    {
-      subTitle: 'Nuestro Compromiso con el Medio Ambiente',
-      text: 'En ParkWise, también nos preocupamos por el medio ambiente. Creemos que una gestión más eficiente del estacionamiento puede reducir la congestión del tráfico y las emisiones de gases de efecto invernadero. Al ayudarte a encontrar estacionamiento rápidamente, contribuimos a crear una ciudad más sostenible y amigable con el medio ambiente.'
-    },
-    {
-      subTitle: 'Únete a ParkWise hoy',
-      text: 'Estamos emocionados de tener la oportunidad de transformar la forma en que te estacionas. Únete a ParkWise hoy y experimenta un enfoque más inteligente, conveniente y sostenible para el estacionamiento.'
-    }
-  ]
+      subTitle: 'Nuestra Visión',
+      text: 'Ser líderes en la innovación y la excelencia en la industria de gestión de estacionamientos, brindando soluciones inteligentes y tecnológicas que transformen la experiencia de estacionamiento para nuestros clientes. Aspiramos a ser reconocidos como un socio confiable y visionario que redefine la eficiencia y la comodidad en la administración de espacios de estacionamiento en todo México.'
+    } 
+  ],
+  info:
+  {
+    subTitle: 'Cómo Funciona',
+    text: 'Nuestro sistema de estacionamiento inteligente utiliza sensores avanzados para detectar la disponibilidad de espacios en tiempo real. Con esta información, podemos ofrecerte una vista en tiempo real de los lugares de estacionamiento disponibles en tu ubicación, lo que te permite tomar decisiones informadas y encontrar rápidamente el espacio perfecto para aparcar tu vehículo.'
+  },
+  footer: 
+  {
+    subTitle: 'Únete a ParkWise hoy',
+    text: 'Estamos emocionados de tener la oportunidad de transformar la forma en que te estacionas. Únete a ParkWise hoy y experimenta un enfoque más inteligente, conveniente y sostenible para el estacionamiento.'
+  }
+
 }
 
 export const services = {
