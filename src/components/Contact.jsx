@@ -26,8 +26,7 @@ const Contact = () => {
   };
 
   return (
-    <>
-      <div className='pt-20 flex  h-full w-full items-center bg-white p-5'>
+      <div className='pt-20 flex flex-col  h-full w-full items-center bg-white p-5'>
         <div className="p-2 w-80">
           <h1 className="text-3xl font-bold mb-4">Contacto</h1>
           <form onSubmit={handleSubmit} className="bg-blue-950 p-3 min-w-full rounded-md">
@@ -112,7 +111,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </>
+ 
   );
 };
 

@@ -17,7 +17,7 @@ const About = () => {
 
   return (
     <div className='flex flex-col items-center p-5'>
-      <div className="container">
+      <div className="max-w-xs">
         <Swiper {...sliderSettings}>
           {slider.map((slider, sliderIndex) => (
               <SwiperSlide key={sliderIndex}>
