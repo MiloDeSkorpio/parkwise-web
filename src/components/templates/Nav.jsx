@@ -12,7 +12,6 @@ const Nav = () => {
       })
     })
   return (
-
       <ul className='h-full flex flex-row justify-center items-center gap-x-8'>
         {nav.map((item, index) => {
           const { href, name } = item;

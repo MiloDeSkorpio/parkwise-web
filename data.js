@@ -23,9 +23,39 @@ export const nav  = [
 // exports infoComponents
 export const home = {
   title: '¡Bienvenido a ParkWise!',
-  text: 'Somos una empresa emergente apasionada por transformar la forma en que las personas interactúan con los estacionamientos.',
-  text2: 'Estamos comprometidos con la innovación y la tecnología para crear soluciones que hagan que el proceso de estacionamiento sea más eficiente, conveniente y amigable para todos.',
-  text3: 'Con una visión fresca y creativa, estamos listos para marcar la diferencia en la industria de la gestión de estacionamientos.',
+  p1:[
+    {
+      text: 'Somos una empresa emergente apasionada por transformar la forma en que las personas interactúan con los estacionamientos.',
+    },
+    {
+      text: 'Estamos comprometidos con la innovación y la tecnología para crear soluciones que hagan que el proceso de estacionamiento sea más eficiente, conveniente y amigable para todos.',
+    },
+    {
+      text: 'Con una visión fresca y creativa, estamos listos para marcar la diferencia en la industria de la gestión de estacionamientos.',
+    },
+  ],
+  p2: [
+    {
+      text: 'En ParkWise, diseñamos, desarrollamos y suministramos una amplia gama de soluciones tecnológicas para la gestión de estacionamientos.'
+    },
+    {
+      text: ' Nuestros productos incluyen sistemas de control de acceso, sensores de ocupación en tiempo real, plataformas de reserva de espacios y aplicaciones móviles personalizadas. '
+    },
+    {
+      text: 'Trabajamos estrechamente con nuestros clientes para implementar soluciones a medida que optimizan la eficiencia operativa y mejoran la comodidad de los usuarios.'
+    }
+  ],
+  p3: [
+    {
+      text: 'Si eres propietario de un estacionamiento, nuestro equipo experto puede proporcionarte herramientas avanzadas para gestionar el flujo de vehículos, optimizar la asignación de espacios y aumentar tus ingresos.'
+    },
+    {
+      text: ' Si eres un conductor, nuestras soluciones te brindarán una experiencia de estacionamiento más conveniente y sin estrés, permitiéndote encontrar fácilmente espacios disponibles y reservarlos con anticipación. '
+    },
+    {
+      text: 'Ya sea que busques aumentar la eficiencia de tu estacionamiento o mejorar tu experiencia como usuario, estamos aquí para ayudarte a lograrlo con tecnología de vanguardia y servicio excepcional.'
+    }
+  ],
   images: [
     { 
       ruta: homeImg1
