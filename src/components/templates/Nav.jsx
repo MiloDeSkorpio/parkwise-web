@@ -4,7 +4,7 @@ import { nav } from '../../../data';
 
 const Nav = () => {
   const location = useLocation();
-  const [isActive, setisActive] = useState(false);
+
     //scroll event 
     useEffect(() => {
       window.addEventListener('scroll', () => {
@@ -12,12 +12,7 @@ const Nav = () => {
       })
     })
   return (
-    <div className={`
-    ${isActive
-      ? 'bg-white shadow-2xl'
-      : 'lg:top-[0px]'}
-    py-6 lg:py-0 fixed w-full transition-all z-10 h-[80px] 
-    `}>
+
       <ul className='h-full flex flex-row justify-center items-center gap-x-8'>
         {nav.map((item, index) => {
           const { href, name } = item;
@@ -29,7 +24,7 @@ const Nav = () => {
           );
         })}
       </ul>
-    </div>
+   
   );
 };
 

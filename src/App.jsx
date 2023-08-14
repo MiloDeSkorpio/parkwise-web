@@ -5,7 +5,8 @@ import Home from './components/Home.jsx';
 import About from './components/About.jsx';
 import Contact from './components/Contact.jsx';
 import Services from './components/Services.jsx'
-import Nav from './components/templates/Nav.jsx';
+import Header from './components/Header.jsx';
+
 
 
 const App = () => {
@@ -13,7 +14,7 @@ const App = () => {
   return (
     <div className=''>
       <Router>
-        <Nav />
+        <Header />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About} />
