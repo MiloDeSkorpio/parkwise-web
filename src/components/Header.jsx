@@ -1,7 +1,7 @@
 import {React, useState, useEffect} from 'react'
 
 //import icons
-import { HiMenuAlt4, HiOutlineX } from 'react-icons/hi'
+import { HiMenu, HiOutlineX } from 'react-icons/hi'
 //import components
 import MobileNav from './templates/MobileNav.jsx'
 import Nav from './templates/Nav.jsx'
@@ -27,7 +27,7 @@ const Header = () => {
         py-6 lg:py-2 fixed w-full transition-all z-10 
         `}
     >
-      <div className='mx-auto flex justify-center items-center'>
+      <div className='mx-auto flex justify-between items-center'>
         {/* logo */}
         <a
           href='/'
@@ -53,7 +53,7 @@ const Header = () => {
           {mobileNav ? (
             <HiOutlineX className='text-4xl text-[#d1ae6c]' />
           ) : (
-            <HiMenuAlt4 className='text-4xl text-[#d1ae6c]' />
+            <HiMenu className='text-4xl text-[#d1ae6c]' />
           )}
         </button>
         {/** mobile nav - hidden on desktop **/}

@@ -1,4 +1,4 @@
-//import img´s
+//import img´s home
 import homeImg1 from '/img/imagen1.webp';
 import homeImg2 from '/img/imagen2.png';
 import homeImg3 from '/img/imagen3.jpg';
@@ -23,7 +23,9 @@ export const nav  = [
 // exports infoComponents
 export const home = {
   title: '¡Bienvenido a ParkWise!',
-  text: 'Una innovadora empresa de tecnología de estacionamiento inteligente que está transformando la forma en que las personas experimentan el aparcamiento en las ciudades. Nuestro objetivo es brindar soluciones eficientes y sin complicaciones para encontrar estacionamiento, aliviando el estrés y el tiempo perdido al buscar un lugar para estacionar. Con la combinación de sensores de largo alcance y lectores de placas avanzados, ParkWise está a la vanguardia de la movilidad urbana, mejorando la experiencia diaria de los conductores y promoviendo una forma más sostenible de moverse por la ciudad.',
+  text: 'Somos una empresa emergente apasionada por transformar la forma en que las personas interactúan con los estacionamientos.',
+  text2: 'Estamos comprometidos con la innovación y la tecnología para crear soluciones que hagan que el proceso de estacionamiento sea más eficiente, conveniente y amigable para todos.',
+  text3: 'Con una visión fresca y creativa, estamos listos para marcar la diferencia en la industria de la gestión de estacionamientos.',
   images: [
     { 
       ruta: homeImg1
