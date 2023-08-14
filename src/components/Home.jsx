@@ -16,7 +16,6 @@ const Home = () => {
   };
 
   return (
-    <>
       <div className='pt-20 flex  h-full w-full items-center bg-white p-5'>
         <div className='h-44 w-full overflow-hidden py-3'>
           <Swiper {...sliderSettings}>
@@ -37,8 +36,7 @@ const Home = () => {
           <p className=''>{text}</p>
         </div>
       </div>
-    </>
-  );
+      );
 };
 
 export default Home;

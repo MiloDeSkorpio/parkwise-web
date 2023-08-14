@@ -23,7 +23,7 @@ const Nav = () => {
           const { href, name } = item;
           const isActive = location.pathname === href; // Verificar si la ruta actual coincide con la ruta del enlace
           return (
-            <li key={index} className={`hover:bg-orange-500 hover:shadow-md p-2 rounded-sm ${isActive ? 'bg-orange-500 shadow-md' : ''}`}>
+            <li key={index} className={`hover:bg-orange-500 hover:shadow-md p-3 rounded-md ${isActive ? 'bg-orange-500 shadow-md' : ''}`}>
               <NavLink to={href}>{name}</NavLink>
             </li>
           );

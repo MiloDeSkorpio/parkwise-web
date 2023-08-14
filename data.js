@@ -2,6 +2,15 @@
 import homeImg1 from '/img/imagen1.webp';
 import homeImg2 from '/img/imagen2.png';
 import homeImg3 from '/img/imagen3.jpg';
+//import img's services
+import anpr from '/img/anpr.svg'
+import card from '/img/card.svg'
+import rfid from '/img/rfid.svg'
+import guidence from '/img/guidence.svg'
+import gsystem from '/img/gsystem.svg'
+import dispenser from '/img/dispenser.svg'
+import automatic from '/img/automatic.svg'
+import tdispenser from '/img/tdispenser.svg'
 
 //exports templates
 export const nav  = [
@@ -58,13 +67,49 @@ export const services = {
   service: [
     {
     title: 'ANPR/LPR System',
-    svg: ''
-    }
+    svg: anpr
+    },
+    {
+    title: 'Barcode Ticket/Card System',
+    svg: card
+    },
+    {
+    title: 'Long Range RFID System',
+    svg: rfid
+    },
+    {
+    title: 'Parking Guidance System',
+    svg: guidence
+    },
+    {
+    title: 'Parking Real-time Guidence',
+    svg: gsystem
+    },
+    {
+    title: 'Ticket Dispenser',
+    svg: dispenser
+    },
+    {
+    title: 'Automaic Barrier Gate',
+    svg: automatic
+    },
+    {
+    title: 'Automatic Payment Machine(APM)',
+    svg: tdispenser
+    },
   ],
   sections: [
     {
-      title: "",
-      img: '',
-    }
+      title: "Parking Guidance System",
+      text: 'La visualización en tiempo real del número de espacios desocupados para aparcamiento más cercano en un panel de información en la calle. Es útil para que los conductores puedan estacionar su automóvil en la calle sin ninguna confusión. Él reducirá el atasco de tráfico y también producirá menos CO2. Estos datos de ocupación se pueden mostrar en letreros dinámicos o directo en los teléfonos inteligentes de los usuarios. A medida que los vehículos se vuelven más conectados en los próximos años, esta información estará disponible directamente en el tablero',
+    },
+    {
+      title: "Ticket/Card Parking System",
+      text: 'El sistema de control de acceso al estacionamiento con tarjeta/código de barras normalmente funciona con una máquina de pago automático. Es una solución para comerciales.área o área pública con una gran cantidad de visitantes. Es compatible con una amplia función de pago: billetes de banco y monedas, banco pagos con tarjeta y móvil. Ahora podemos integrar a más de 120 países por solución de coma. El costo del código de barras marcado es el costo eficaz, puede dispensar hasta 2,500 piezas con cada rollo de boletos.',
+    },
+    {
+      title: "Long-Range RFID System",
+      text: 'El sistema de estacionamiento de automóviles RFID de largo alcance permite un control sin paradas y manual.acceso vehicular gratuito. El sistema funciona con una lectura de etiquetas bluetooth.Tecnología con distancia máxima de lectura de 40 m. Esta solución será adecuado para parker a largo plazo, y para el aparcamiento completo separará a los diferentes usuarios para una mejor gestión del acceso.',
+    },
   ]
 }
