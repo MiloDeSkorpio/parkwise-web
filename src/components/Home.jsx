@@ -2,28 +2,32 @@ import React, { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { home } from '../../data.js';
 
+
 const Home = () => {
-  const { p1,p2,p3, title, images } = home;
+  const { p1, p2, p3, title, images } = home;
 
   // Configuración del slider
   const sliderSettings = {
-    spaceBetween: 30,
     slidesPerView: 1,
     loop: true,
     autoplay: {
-      delay: 2000, // Tiempo en milisegundos entre cada slide
-      disableOnInteraction: false, // Permite que el autoplay continúe después de la interacción del usuario
+      delay: 5000,
     },
     pagination: {
       clickable: true,
-    },
+    }
   };
 
   return (
     <div className='pt-20 flex flex-col h-full w-full items-center bg-white'>
       <h1 className='font-extrabold text-2xl'>{title}</h1>
       <div className='h-44 w-full overflow-hidden p-2'>
-        <Swiper {...sliderSettings}>
+        <Swiper
+          slidesPerView={1}
+          autoplay={{delay:5000}}
+          pagination={{ clickable: true }}
+          loop={true}
+        >
           {images.map((image, imageIndex) => {
             const { ruta } = image;
             return (

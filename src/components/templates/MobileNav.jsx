@@ -4,7 +4,7 @@ import { NavLink, useLocation } from 'react-router-dom';
 import { nav } from '../../../data';
 const MobileNav = () => {
   return (
-    <div className='bg-[#d1ae6c] w-full h-full'>
+    <div className='bg-[#e49250] w-full h-full'>
       <ul className='h-full flex flex-col justify-center items-center gap-y-8'>
         {nav.map((item, index) => {
           //destrucure item
