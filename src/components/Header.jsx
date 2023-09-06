@@ -5,12 +5,13 @@ import { HiMenu, HiOutlineX } from 'react-icons/hi'
 //import components
 import MobileNav from './templates/MobileNav.jsx'
 import Nav from './templates/Nav.jsx'
-
+import { header } from '../../data.js'
 const Header = () => {
   const [mobileNav, setMovileNav] = useState(false);
   // header state
   const [isActive, setisActive] = useState(false);
   //destructure header data
+  const { logo } = header
   const handleMobileNavClick = () => {
     // Aquí puedes realizar las acciones que desees cuando se hace clic en un elemento de MobileNav
     // Por ejemplo, cerrar el menú móvil
@@ -28,16 +29,23 @@ const Header = () => {
         ${isActive
           ? 'bg-white shadow-2xl'
           : 'lg:top-[0px]'}
-        py-6 lg:py-2 fixed w-full transition-all z-10 
+        py-2 fixed w-full transition-all z-10 
         `}
     >
-      <div className='mx-auto flex justify-between items-center'>
+      <div className='mx-auto flex justify-between items-center '>
         {/* logo */}
         <a
           href='/'
           data-aos='fade-down-right'
           data-aos-delay='1000'
+          className='h-16 '
         >
+          <img
+            src={logo}
+            alt='logo'
+            className='w-full h-full object-cover p-1'
+            loading="lazy"
+          />
         </a>
         {/** nav - initially hidden - show on desktop mode **/}
         <div

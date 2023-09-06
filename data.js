@@ -11,6 +11,13 @@ import gsystem from '/img/gsystem.svg'
 import dispenser from '/img/dispenser.svg'
 import automatic from '/img/automatic.svg'
 import tdispenser from '/img/tdispenser.svg'
+//import img header
+import logo from '/img/logopark.png'
+
+//exports header
+export const header = {
+  logo: logo
+}
 
 //exports templates
 export const nav  = [
