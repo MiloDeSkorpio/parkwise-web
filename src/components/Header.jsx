@@ -11,7 +11,11 @@ const Header = () => {
   // header state
   const [isActive, setisActive] = useState(false);
   //destructure header data
-
+  const handleMobileNavClick = () => {
+    // Aquí puedes realizar las acciones que desees cuando se hace clic en un elemento de MobileNav
+    // Por ejemplo, cerrar el menú móvil
+    setMovileNav(false);
+  };
   //scroll event 
   useEffect(() => {
     window.addEventListener('scroll', () => {
@@ -62,10 +66,10 @@ const Header = () => {
               ${mobileNav
               ? 'left-0'
               : '-left-full'}
-              fixed top-0 bottom-0 w-[60vw] lg:hidden transition-all bg-[#e49250]   
+              fixed top-0 bottom-0 w-[60vw] lg:hidden transition-all bg-[#e49250] duration-500   
            `}
         >
-          <MobileNav />
+          <MobileNav  onMobileNavClick={handleMobileNavClick}/>
         </div>
       </div>
     </header>

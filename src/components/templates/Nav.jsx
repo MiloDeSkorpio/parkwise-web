@@ -4,7 +4,7 @@ import { nav } from '../../../data';
 
 const Nav = () => {
   const location = useLocation();
-
+  const [isActive, setisActive] = useState(false);
     //scroll event 
     useEffect(() => {
       window.addEventListener('scroll', () => {

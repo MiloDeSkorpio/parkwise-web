@@ -16,8 +16,8 @@ import tdispenser from '/img/tdispenser.svg'
 export const nav  = [
   {name: 'Home', href:'/'},
   {name: 'Acerca de', href:'/about'},
-  {name: 'Contacto', href:'/contact'},
   {name: 'Servicios', href:'/services'},
+  {name: 'Contacto', href:'/contact'},
 ]
 
 // exports infoComponents

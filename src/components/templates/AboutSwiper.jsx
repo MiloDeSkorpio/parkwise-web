@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { about } from '../../../data';
 
 const About = () => {
-  const { title, slider } = about;
+  const { slider } = about;
 
   // Configuración del slider
   const sliderSettings = {
